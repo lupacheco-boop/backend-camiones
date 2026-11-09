@@ -1,0 +1,27 @@
+# Entornos virtuales y caché de Python
+env/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Variables de entorno y secretos locales
+.env
+
+# Archivos y carpetas de registro por fecha
+logs/
+
+# Caché de pruebas y tipado
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos de sistema e IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
